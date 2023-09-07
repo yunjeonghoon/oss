@@ -1,0 +1,72 @@
+body {
+    margin: 0; /* 바깥 여백 제거 */
+    padding: 0; /* 안쪽 여백 제거 */
+    width: 100%; /* 가로 폭 100% */
+    height: 100vh; /* 세로 높이 100% (뷰포트 높이) */
+    overflow: hidden; /* 스크롤바 제거 */
+    background: #efefef;
+	  text-align: center;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ZEROStartup {
+    color: #c1efff;
+    font-size: 45px;
+	  margin-top: 30px;
+    font-family: 'Coda', sans-serif;
+    text-align: center;
+    text-shadow: 4px 3px 1px #B2EBF4;
+}
+.ZEROStartup span {
+    color: #000000;
+    text-shadow: 3px 3px 1px gray
+}
+#bgd{
+	width: 380px;
+	margin: 0px auto 0px;
+	height: 620px;
+	list-style: none;
+	background: white;
+	border-radius: 15px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+li{
+	text-align: left;
+	margin-left: 35px;
+	margin-top: 60px;
+	font-size: 17px;
+}
+#checkall{
+	margin-top: 25px;
+}
+#nes{
+	color: #b1dfeF;
+}
+#checkbtn {
+font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #c1effF;
+  width: 220px;
+  height: 70px;
+  border: 1px solid black;
+	border-radius: 8px;
+  padding: 0;
+	margin-top: 45px;
+  color: #555555;
+  font-size: 17px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#checkbtn:hover,#checkbtn:active,#checkbtn:focus {
+  background: #b1dfeF;
+}
+#text{
+	width: 250px;
+	height: 80px;
+  margin-top: 10px;
+}

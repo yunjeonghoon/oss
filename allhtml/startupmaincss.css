@@ -1,0 +1,25 @@
+body {
+    margin: 0; /* 바깥 여백 제거 */
+    padding: 0; /* 안쪽 여백 제거 */
+    width: 100%; /* 가로 폭 100% */
+    height: 100vh; /* 세로 높이 100% (뷰포트 높이) */
+    overflow: hidden; /* 스크롤바 제거 */
+    background: linear-gradient(0deg, #000000 , #fafafa 0%);
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ZEROStartup {
+    color: #c1efff;
+    font-size: 45px;
+    margin-top: 10px;
+    font-family: 'Coda', sans-serif;
+    text-align: center;
+    text-shadow: 4px 3px 1px #B2EBF4;
+}
+.ZEROStartup span {
+    color: #000000;
+    text-shadow: 3px 3px 1px gray;
+}
+
